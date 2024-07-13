@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LevelUp</title>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <main class="main container">
+            <!-- Блок 1: Промо -->
+            <section class="promo">
+                <div class="promo__content">
+                    <h1 class="promo__title">LevelUp</h1>
+                    <div class="promo__wrap-info">
+                        <img src="img/prod.png" alt="Продукт LevelUp" class="promo__image" />
+                        <ul class="promo__features">
+                            <li class="promo__feature">
+                                Содержит эффективные компоненты, такие как гинсенг, макка, ли-он и ашваганда, которые известны своим положительным влиянием на
+                                уровень энергии, стрессоустойчивость и физическую выносливость.
+                            </li>
+                            <li class="promo__feature">
+                                Содержит витамины и минералы, такие как витамин D, железо и магний, которые важны для поддержки здоровья костей, мышц и иммунной
+                                системы.
+                            </li>
+                            <li class="promo__feature">
+                                Содержит адаптогены, такие как астрагал и элеутерококк, которые помогают организму лучше адаптироваться к стрессу и улучшать
+                                общее состояние здоровья.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="order-button">Заказать</button>
+                </div>
+
+                <video class="promo__background-video" autoplay muted loop>
+                    <source src="video/playback.mp4" type="video/mp4" />
+                </video>
+            </section>
+
+            <!-- Блок 2: Состав продукта -->
+            <section class="composition">
+                <h2 class="composition__title">Состав продукта</h2>
+                <div class="composition__content">
+                    <ul class="composition__ingredients">
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-1.jpg" alt="Ингредиент 1" /></div>
+                            <span class="composition__ingredient-text">Женьшень обыкновенный</span>
+                        </li>
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-2.jpg" alt="Ингредиент 2" /></div>
+                            <span class="composition__ingredient-text">Мака Перуанская</span>
+                        </li>
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-3.jpg" alt="Ингредиент 3" /></div>
+                            <div class="composition__ingredient-text">Трибулус террестрис</div>
+                        </li>
+                    </ul>
+                    <img src="img/prod.png" alt="Продукт" class="composition__image" />
+                    <ul class="composition__ingredients">
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-4.jpg" alt="Ингредиент 4" /></div>
+                            <span class="composition__ingredient-text">Йохимбе</span>
+                        </li>
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-5.jpg" alt="Ингредиент 5" /></div>
+                            <span class="composition__ingredient-text">Экстракт имбиря</span>
+                        </li>
+                        <li class="composition__ingredient">
+                            <div class="composition__ingredient-icon"><img src="img/ing-6.jpg" alt="Ингредиент 6" /></div>
+                            <span class="composition__ingredient-text">Панты марала</span>
+                        </li>
+                    </ul>
+                </div>
+                <button class="order-button">Заказать</button>
+            </section>
+
+            <!-- Блок 3: Отзывы -->
+            <section class="reviews">
+                <h2 class="reviews__title">Отзывы</h2>
+                <ul class="review-carousel">
+                    <li class="review-carousel__item review-carousel__item--visible">
+                        <img src="img/person.jpg" alt="Photo 1" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Миша</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                    <li class="review-carousel__item review-carousel__item--visible">
+                        <img src="img/person.jpg" alt="Photo 2" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Ваня</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                    <li class="review-carousel__item review-carousel__item--visible">
+                        <img src="img/person.jpg" alt="Photo 3" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Саша</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                    <li class="review-carousel__item">
+                        <img src="img/person.jpg" alt="Photo 3" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Глеб</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                    <li class="review-carousel__item">
+                        <img src="img/person.jpg" alt="Photo 3" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Данил</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                    <li class="review-carousel__item">
+                        <img src="img/person.jpg" alt="Photo 3" class="review-carousel__photo" />
+                        <h3 class="review-carousel__name">Костя</h3>
+                        <p class="review-carousel__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </li>
+                </ul>
+                <div class="review-carousel__buttons">
+                    <button class="review-carousel__control review-carousel__control--prev" disabled>Previous</button>
+                    <button class="review-carousel__control review-carousel__control--next">Next</button>
+                </div>
+            </section>
+
+            <!-- Блок 4: Промо -->
+            <section class="promo-secondary">
+                <h2 class="promo-secondary__title">Промо</h2>
+                <div class="promo-secondary__content">
+                    <div class="promo-secondary__wrap">
+                        <img src="img/doctor.png" alt="Продукт с человеком" class="promo-secondary__image" />
+                        <p class="promo-secondary__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam
+                        </p>
+                    </div>
+
+                    <ul class="promo-secondary__features">
+                        <li class="promo-secondary__feature">Характеристика 1</li>
+                        <li class="promo-secondary__feature">Характеристика 2</li>
+                        <li class="promo-secondary__feature">Характеристика 3</li>
+                    </ul>
+                </div>
+                <button class="order-button">Заказать</button>
+            </section>
+
+            <!-- Блок 5: Форма заказа -->
+            <section class="order-form">
+                <div class="order-form__content">
+                    <h2 class="order-form__title">LevelUp</h2>
+                    <div id="countdown" class="order-form__countdown"></div>
+                    <div class="order-form__wrap">
+                        <div class="order-form__content-wrap">
+                            <img src="img/prod.png" alt="Продукт" class="order-form__image" />
+                            <div class="order-form__prices">
+                                <span class="order-form__price order-form__price--old">1000₽</span>
+                                <span class="order-form__price order-form__price--new">500₽</span>
+                            </div>
+                        </div>
+
+                        <form class="order-form__form">
+                            <div class="order-form__input-wrapper">
+                                <input type="text" name="name" placeholder="Имя" class="order-form__input order-form__input--name" />
+                                <span class="order-form__tooltip">Пример: Иван</span>
+                            </div>
+                            <div class="order-form__input-wrapper">
+                                <input type="text" name="phone" placeholder="Телефон" class="order-form__input order-form__input--phone" />
+                                <span class="order-form__tooltip">Пример: 89001234567</span>
+                            </div>
+                            <button type="submit" class="order-button order-form__submit-button">Заказать</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+        <script src="js/carousel.js"></script>
+    </body>
+</html>
